@@ -1,8 +1,8 @@
 name: "DLNA"
 guid: "33EBA9CD-7DA1-4720-967F-DD7DAE7B74A1"
 imageUrl: ""
-version: 11
-targetAbi: "10.11.9.0"
+version: 12
+targetAbi: "10.11.11.0"
 framework: "net9.0"
 owner: "jellyfin"
 overview: "DLNA Service"
@@ -16,4 +16,5 @@ artifacts:
   - "Jellyfin.Plugin.Dlna.Playback.dll"
   - "Rssdp.dll"
 changelog: |-
-  - Fix IUserManager.Users -> GetUsers() for Jellyfin 10.11.9 (#209) @crobibero
+  - Update matching for Denon AVR and DRA receivers (#213) @PovlAbrahamsen
+  - Profile for Movian on PS3 (#190) @GwyndolynMarchant
